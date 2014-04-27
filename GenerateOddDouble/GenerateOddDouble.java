@@ -14,7 +14,7 @@ class GenerateOddDouble {
         } while(n1 < 0);
         
         do {
-            System.out.print("Enter a integer greather: ");
+            System.out.print("Enter a integer greater: ");
             n2 = in.nextInt();
         } while (n2 <= n1);
         
