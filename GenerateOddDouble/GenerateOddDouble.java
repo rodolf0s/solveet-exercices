@@ -18,12 +18,9 @@ class GenerateOddDouble {
             n2 = in.nextInt();
         } while (n2 <= n1);
         
-        for (int i = n1; i + i <= n2 * 2; i++) {
-            if (i % 2 != 0) {
+        for (int i = n1; i + i <= n2 * 2; i++)
+            if (i % 2 != 0)
                 System.out.printf(" %d", i + i);
-                j++;
-            } 
-        }
         
         System.out.println();
     }
